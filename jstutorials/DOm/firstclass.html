@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg-black {
+            background-color: black;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body class="bg-black">
+    <div>
+        <h1 id="title" class="heading">Dom Learning in javascript</h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, dicta.</h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, dicta.</h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, dicta.</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Natus non eveniet praesentium quasi.<br>
+            Tempora consectetur et nesciunt odit officia reiciendis praesentium nam,
+            debitis saepe? Odit, beatae? Ipsa iusto explicabo sint.
+        </p>
+        <input type="text" placeholder="Enter your words here......" height="20px " width="20px" />
+        <ul></ul>
+        <li class="list-item">one</li>
+        <li class="list-item">two</li>
+        <li class="list-item">three</li>
+        <li class="list-item">four</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
+
+
+<script>
+    // ************************** accessing elements by id ***********************************
+    const title = document.getElementById("title")
+    // console.log(title);
+    // console.log(title.id);
+    // console.log(title.className);
+
+    // accessing the attributes
+    console.log(title.getAttribute("class"));
+    console.log(title.getAttribute("id"));
+
+    // adding class and classes in the form of key-value form
+    console.log(title.setAttribute("class", "test"));       // class = "test" hunxa. NOTE: setAttribute will overwrite the prvious arribute value 
+    console.log(title.setAttribute("class", "test heading"));
+
+    // adding css styles
+    console.log(title.style.backgroundColor = 'green');
+    console.log(title.style.padding = "15px");
+    console.log(title.style.borderRadius = "15px");
+
+    console.log(title);
+    //innerText ==>only displays visible content 
+    //textContent ==> displays visible content + hidden content also
+    //innerHTML ==> displays visible content + hidden content also + also support elements inside it
+    // accessing text content (textContent vs innerText vs innerHTML)
+    console.log(title.textContent);
+    console.log(title.innerHTML);
+    console.log(title.innerText);
+
+
+
+    // ************************** accessing elements by class name ***********************************
+    console.log(document.getElementsByClassName("heading"));
+    //HTMLCollection [h1#title.test.heading, title: h1#title.test.heading]
+
+
+    //************************************** IMP *****************************************************
+    // **************************  ***********************************
+    // 1. querySelector -->give you the first of the element on page  you acces eg:mtlb poorey page ma jitney h1 ho us ma se pehla h1 miljaega hmey
+    // 2. querySelectorAll
+
+    //1. querySelector
+    console.log(document.querySelector('h1'));  // same as css selector for elements
+    console.log(document.querySelector('p'));   // same as css selector for elements
+    console.log(document.querySelector('.heading'));    // same as css selector for class
+    console.log(document.querySelector('.title'));      // id cannot be accessed like this
+    console.log(document.querySelector('#title'));      // same as css selector for id
+    //console.log(document.querySelector('input'));
+    console.log(document.querySelector("input[type='text']"));   // same as css selector for children node
+    console.log(document.querySelector("p:first-child"));        // same as css selector for children node
+
+    document.querySelector('ul');
+    document.querySelector('li');
+    const list = document.querySelector('li');
+    list.style.backgroundColor = "yellow";
+    list.style.color = "green";
+    list.style.color = "darkBlue";
+    list.style.fontSize = "30px";
+    list.style.fontSize = "20px";
+    list.innerHTML = "yakam";
+
+    //2. querySelectorAll
+
+    //Nodelist
+    //Html collection
+    const tempLiList = document.querySelectorAll("li")
+    console.log(tempLiList);        // Nodelist dinxa
+    // console.log(tempLiList.style.color = "red");    // error 
+    console.log(tempLiList[0].style.color = "blue");     // don't forget to mention index number
+    console.log(tempLiList[1].style.color = "blue");     // don't forget to mention index number
+    console.log(tempLiList[3].style.color = "blue");     // don't forget to mention index number
+    console.log(tempLiList[2].style.color = "blue");     // don't forget to mention index number
+
+    tempLiList.forEach(function (l) {
+        l.style.backgroundColor = "Yellow"
+    })
+
+
+    document.getElementsByClassName('list-item');
+    //const tempoList = document.getElementsByClassName('list-item');
+    //tempoList;
+    tempoList.forEach(function(lis){
+        console.log(lis);
+    });  //tempoList.forEach is not a function htmlcollection should be converted forEach
+
+    // b. HTMLCollection    // foreach hudaina. So, array maa convert garne
+    const tempoList = document.getElementsByClassName("list-item")
+    console.log( tempoList);         
+    const myConvertedArr = Array.from(tempClassList)        // array maa convert gareko
+    console.log(myConvertedArr);
+    myConvertedArr.forEach(function (li) {
+        li.style.color = "orange"
+    })
+
+</script>
