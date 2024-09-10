@@ -67,7 +67,7 @@ handleObject({
     username: "hitesh",
     price: 399,
 })
-=======
+
 // reusable code written in a block
 
 // all code from line No.3 to 10 is Function Definition
@@ -136,4 +136,4 @@ handleObject({
     username: "hitesh",
     price: 399,
 })
->>>>>>> ec8375e53cfe42786701efbc10916988e8e72d73
+
