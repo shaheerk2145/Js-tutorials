@@ -1,0 +1,8 @@
+javascript ---> synchronous
+           ---> Single Threaded     
+
+Execution Context
+            ---> execute one line of code at a time
+            ---> console.log(1)
+            ---> console.log(2)                   => each operation wait for the last one to complete before executing
+            => Call Stack =>Memory Heap 

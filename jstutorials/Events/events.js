@@ -79,6 +79,7 @@ document.getElementById('images').addEventListener('click', function (e) {
     // removeImg.remove();
     // removeImg.parentNode.removeChild(removeImg);
     if (e.target.tagName === 'IMG') {
+        console.log(e.target);
         let removeImg = e.target.parentNode;
         removeImg.remove();
         removeImg.parentNode.removeChild(removeImg);
