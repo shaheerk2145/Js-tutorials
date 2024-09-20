@@ -89,6 +89,15 @@ let marks3 =300
 
 
 // 1. push() method in array simply add the array as an new single entity in the existing array.
-// 2. concat() method help us achieving a desisered output, like merging the two array, but the problems with concat are, It complicated to concat more then one array simultaneously and also It takes extra space and do the merging operation.
+// 2. concat() method help us achieving a desisered output, like merging the two array, 
+// but the problems with concat are, It complicated to concat more then one array simultaneously
+//  and also It takes extra space and do the merging operation.
 // 3. Despite push and concat we should use spread operator.
 // 4. Intresting methods, isArray(), from() and of()
+// 5. Array Search Methods:
+//      includes(): Checks if an element exists in the array.
+//      indexOf(): Returns the index of the first occurrence of a value.
+// 6. join(): Converts the array into a string by joining all elements with a specified delimiter.
+// Array.isArray(): Checks if the input is an array
+// Array.from(): Creates an array from an iterable or array-like object
+// Array.of(): Creates a new array from a set of values

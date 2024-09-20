@@ -134,3 +134,48 @@ console.log(val1);
 // ternary operator
 const number = 100
 number <= 80 ? console.log("less than 80"): console.log("greater than 80")
+// React is pretty much like Lego for building websites! You snap together reusable code blocks called components. This makes learning React fun and intuitive, especially for beginners.
+
+// Big names like Netflix, Twitch, Facebook and Instagram are built with React too.
+
+// The following outline details the core ReactJS concepts essential for foundational knowledge:
+
+// - Fundamentals:
+// JSX Function Components
+// Create-react-app vs Vite
+// Import/Export Components
+// React Fragment
+// Styling Components
+// Props
+// State & useState Hook
+// Conditional Rendering
+// Lists & Keys
+// Event Handling
+// Form Handling
+// Composition vs Inheritance
+// Component Lifecycle
+// useEffect Hook
+
+// - Important Advanced Topics (Consider selectively):
+// Context (if complex data sharing needed)
+// Refs (if direct DOM interaction needed)
+// Hooks (useReducer, useMemo, useCallback, useTransition - learn as needed)
+// Error Boundaries
+// Portals
+// HTTP Requests (Get, Post, Put/Patch, Delete)
+
+// - Optional Topics:
+// Custom Hooks (advanced usage)
+// Performance Optimization Techniques (if critical)
+// React Server Components (experimental)
+
+// - Ecosystem (Packages - explore based on project requirements):
+// State Management (Redux Toolkit, Zustand - if complex state)
+// Routing (React Router, TanStack Router)
+// Styling (Styled Components, Emotion, Tailwind CSS, Material UI)
+// Forms (React Hook Form, TanStack Form)
+// Testing (Vitest, React Testing Library, Playwright, Cypress)
+// Misc (TypeScript, Storybook, React i18Next, Firebase/Supabase)
+
+// ⭐ 30+ ReactJS Interview questions and a full stack guide roadmap in my bio, go check them out ⭐
+

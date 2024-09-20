@@ -1,0 +1,22 @@
+### ------------------------------------- API -----------------------
+
+API is a communication language between two systems.
+It can be between frontend and backend, or our frontend and backend. 
+Or the backend could be someone else's, with our frontend, 
+or both frontend and backend could belong to someone else. 
+For example, one system could be written in Java and another in JavaScript,
+or one in Ruby and the other in PHP. The medium through which these two systems 
+communicate is called an API.
+
+**Example:**
+- GitHub API: [https://api.github.com/users/khojwar](https://api.github.com/users/khojwar)
+
+**Other APIs:**
+- [https://randomuser.me/](https://randomuser.me/)
+- [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/)
+- [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)
+
+### ------------------ Tool to Easily Read JSON Data or APIs ----------------------
+
+You can use this tool to make reading JSON data or APIs easier:
+- [https://jsonformatter.org/](https://jsonformatter.org/)

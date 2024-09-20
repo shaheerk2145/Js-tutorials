@@ -109,7 +109,7 @@ result2=>[    new environment  table + execution phase      ]=>memory phase for 
 
 // ===============================================
 // call stack
-=======
+
 const user = {
     name: "alex adams",
     price: 99,

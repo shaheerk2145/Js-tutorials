@@ -36,7 +36,7 @@
 //     }
 // one()
 // two()
-=======
+
 
 // Run in snippet mode 
 
@@ -74,5 +74,5 @@
 //     }
 // one()
 // two()
->>>>>>> ec8375e53cfe42786701efbc10916988e8e72d73
+
 // three()

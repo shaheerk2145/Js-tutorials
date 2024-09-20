@@ -1,0 +1,41 @@
+# javascript and classes
+
+## OOP
+
+## Object
+- collection of properties and methods
+- toLowerCase
+
+## why use OOP
+
+## parts of OOP
+Object literal 
+
+- Constructor function      --> harek palta new instance dinxa. eg. const data = new Date;
+- Prototypes
+- Classes
+- Instances (new, this)
+
+
+## 4 pillars
+Abstraction
+Encapsulation
+Inheritance
+Polymorphism
+
+
+
+JavaScript classes and object-oriented programming in great detail
+JavaScript is primarily a prototype-based language.
+Object Oriented Programming is used to avoid spaghetti code and create modular components
+Object-Oriented Programming basics and concepts
+Accessing object literals in JavaScript
+Understanding properties and methods in JavaScript
+Understanding global context and values in JavaScript
+Understanding constructor functions in JavaScript
+Understanding object values and access in JavaScript
+Understanding the concept of constructor function in JavaScript
+Object creation and constructor function in JavaScript
+Understanding the constructor and properties in JavaScript objects.
+
+Js has a prototypal behaviour (itni jldi haar nhi maanti)
